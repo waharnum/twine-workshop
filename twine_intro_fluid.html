@@ -100,7 +100,9 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 font-size: 80%;	
 }
 
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
 
 </script><tw-passagedata pid="1" name="Let&#39;s Begin" tags="" position="605,605">Where should we begin?
 
@@ -112,6 +114,8 @@ Hypertext fiction is a genre of electronic literature, characterized by the use 
 [[Source|https://en.wikipedia.org/wiki/Hypertext_fiction]]
 @@
 
+[[Tell me more about pre-electronic non-linear literature]]
+[[Tell me more about non-Twine hypertext authoring]]
 </tw-passagedata>
 <tw-passagedata pid="3" name="What is Twine?" tags="" position="750,750">@@
 Twine is an open-source tool for telling interactive, nonlinear stories.
@@ -131,9 +135,11 @@ Twine publishes directly to HTML, so you can post your work nearly anywhere. Any
 [[Source|http://www.theguardian.com/technology/2014/oct/22/interactive-fiction-awards-games]]
 @@
 
-[[Twine as a programming tool targeted at non-programmers|Twine for Non-Programmers]]
-[[Hypertext fiction as a paradigm for respecting and involving readers in the production of fiction|Hypertext Fiction for Readers]]</tw-passagedata>
-<tw-passagedata pid="6" name="PassageFooter" tags="" position="100.0001,900">
+I think Twine is interesting for us on two fronts in our role as inclusive designers &amp; developers:
+
+* Let&#39;s talk about [[Twine as a programming tool targeted at non-programmers|Twine for Non-Programmers]]
+* Let&#39;s talk about [[hypertext fiction as a paradigm for respecting and involving readers in the production of fiction|Hypertext Fiction for Readers]]</tw-passagedata>
+<tw-passagedata pid="6" name="PassageFooter" tags="" position="100,900">
 &lt;&lt;if passage() neq &quot;Please let us know some things about you...&quot;&gt;&gt;
 @@.small;.marked;
 &lt;&lt;print $name&gt;&gt;, you&#39;ve visited this passage &lt;&lt;print visited()&gt;&gt; time(s).
@@ -142,14 +148,14 @@ Twine publishes directly to HTML, so you can post your work nearly anywhere. Any
 [[We should end this now|Conclusion]]
 @@
 &lt;&lt;/if&gt;&gt;</tw-passagedata>
-<tw-passagedata pid="7" name="Twine for Non-Programmers" tags="" position="1750.0001,700">@@
+<tw-passagedata pid="7" name="Twine for Non-Programmers" tags="" position="1750,700">@@
 Released in 2012, Rise of the Videogame Zinesters is a manifesto, a call to arms for people (not just queer people) to create small, imperfect games in order to express themselves. It counters the normative idea that you must learn to program code before you make games, that you need access to expensive tools, that a good game must be technologically advanced. It urges people to take advantage of cheap and accessible tools like GameMaker and RPG Maker, or interactive fiction editor Twine, to &quot;sketch&quot; video games, to create and distribute video games like someone might write and distribute a zine.
 [[Source|http://www.polygon.com/features/2013/5/24/4341042/the-queer-games-scene]]
 @@
 
 [[How easy is Twine to use for non-programmers?]]
 [[How accessible is Twine?]]</tw-passagedata>
-<tw-passagedata pid="8" name="Hypertext Fiction for Readers" tags="" position="1550.0001,700">In theory, hypertext fiction offers readers the chance to participate in the path the narrative takes, and breaks down active / passive divisions such as author / reader.
+<tw-passagedata pid="8" name="Hypertext Fiction for Readers" tags="" position="1550,700">In theory, hypertext fiction offers readers the chance to participate in the path the narrative takes, and breaks down active / passive divisions such as author / reader.
 
 The counterpoint argument to this is that alongside the specialized skills already required of writer and readers (which, though often taken for granted, are always present), writers of hypertext fiction must also learn a specialized set of tools for its production, and readers must learn specialized techniques for reading. 
 
@@ -174,12 +180,12 @@ Here is a [[random quote from a 1996 graduate seminar assignment on reading hype
 &lt;&lt;textarea &quot;$reason&quot; &quot;I Don&#39;t Know&quot;&gt;&gt;
 
 [[Proceed|Quote Plus Reason]]</tw-passagedata>
-<tw-passagedata pid="11" name="I Don&#39;t Have An Opinion" tags="" position="1750.0001,900">Sorry, an opinion is required to proceed.
+<tw-passagedata pid="11" name="I Don&#39;t Have An Opinion" tags="" position="1750,900">Sorry, an opinion is required to proceed.
 
 [[I Agree]]
 [[I Disagree]]
 [[Doesn&#39;t forcing me into this box contradict some of the arguments made for hypertext as a freedom from the strictures of conventional text?|A Contradiction?]]</tw-passagedata>
-<tw-passagedata pid="12" name="A Contradiction?" tags="" position="1850.0001,1200">You make a compelling case. Perhaps it might be said:
+<tw-passagedata pid="12" name="A Contradiction?" tags="" position="1850,1200">You make a compelling case. Perhaps it might be said:
 
 &lt;&lt;set $current_random_quote = &quot;The freedom offered within the path of the Twne story itself is simply a freedom within the constraints established by the story&#39;s author. Perhaps the truer freedom is in the fact that Twine stories are produced as single HTML files that can be examined and transformed by others.&quot; &gt;&gt;
 
@@ -212,7 +218,7 @@ Twine has two distinct concepts that work together to produce finished stories:
 * Twine story formats that define both the input and output formats
 
 Twine&#39;s output format is a single HTML file. The resulting files can be reimported into Twine.</tw-passagedata>
-<tw-passagedata pid="16" name="PassageHeader" tags="" position="100.0002,800">
+<tw-passagedata pid="16" name="PassageHeader" tags="" position="100,800">
 &lt;&lt;set $quotes = [&quot;After reading the 120 odd links which comprise Love one, I didn&#39;t feel as if Malloy had done anything to demystify the Net. I would insist that those who use the technology have a responsibility to actively work against its more exclusionary strategies. Despite this bone which I have to pick with Love one, I find myself enamored, wanting to play the role of a spokesman who heralds the coming of a new language, a new epistemology, made possible by a new genre and a new technology. But I have my reservations. (http://public.wsu.edu/~amerstu/573/bennett.html)&quot;, 
 &quot;I realize that my reaction to hypertext at this point seems pretty negative, but I think my flippancy is really a cover for my disappointment at my first encounter with hypertext. As I&#39;ve already explained, the only real differences I noted between the new medium and printed text were a busy server and box-clicking. (http://public.wsu.edu/~amerstu/573/birrer.html)&quot;,
 &quot;As many theorists have pointed out, one distinction between hypertext fiction and traditional fiction is that reading hypertext is a much more active process -- rather than being part of a guided tour it is much more akin to exploring a city on your own: more risks, more work, but often more rewarding. Whether this freedom is somewhat illusory will depend largely upon what if any hypertext reading and writing conventions emerge. (http://public.wsu.edu/~amerstu/573/bonnema.html)&quot;,
@@ -225,12 +231,12 @@ Twine&#39;s output format is a single HTML file. The resulting files can be reim
 !Introduction To Twine
 !!&lt;&lt;print passage()&gt;&gt;
 </tw-passagedata>
-<tw-passagedata pid="17" name="Conclusion" tags="" position="1000.0001,1400">Here are some things that may be interesting to look at:
+<tw-passagedata pid="17" name="Conclusion" tags="" position="1000,1400">Here are some things that may be interesting to look at:
 
 * [[Twine itself|https://twinery.org/]], including a version you can [[use online|https://twinery.org/2/]]
 * The [[electronic literature directory|http://directory.eliterature.org/]] maintained by the [[Electronic Literature Organization|http://eliterature.org/]]
 * The 2014 Guardian article [[The joy of text - the fall and rise of interactive fiction|http://www.theguardian.com/technology/2014/oct/22/interactive-fiction-awards-games]]
-</tw-passagedata>
+* The 2013 Wired article [[Why no one clicked on the great hypertext story|http://www.wired.com/2013/04/hypertext/]]</tw-passagedata>
 <tw-passagedata pid="18" name="How easy is Twine to use for non-programmers?" tags="" position="2050,850">
 While Twine has [[proven popular for creators|http://ifdb.tads.org/search?searchfor=system%3Atwine&amp;searchgo=Search+Games]], doing anything more complex than building branching paths requires some programming.
 
@@ -239,11 +245,13 @@ Let&#39;s look at the Twine description again:
 You //don&#39;t need to write any code// to create a &#39;&#39;simple&#39;&#39; story with Twine, but you can extend your stories with //variables, conditional logic, images, CSS, and JavaScript// &#39;&#39;when you&#39;re ready&#39;&#39;.
 
 We find some familiar language from other end user authoring tools here, a kind of &quot;gateway&quot; attitude that expects the end user eventually progressing to the tools of typical web programming.</tw-passagedata>
-<tw-passagedata pid="19" name="How accessible is Twine?" tags="" position="2000.0001,550">Accessibility for Twine authoring tool is unclear, but I&#39;m unable to interact with the main story interface using the keyboard (a good proxy for basic screen reader accessibility, among other things).
+<tw-passagedata pid="19" name="How accessible is Twine?" tags="" position="2000,550">Accessibility for Twine authoring tool is unclear, but I&#39;m unable to interact with the main story interface using the keyboard (a good proxy for basic screen reader accessibility, among other things).
 
 Accessibility for Twine stories is dependent on the story format (I am specifically using SugarCube 2 for this presentation because [[the format author has specifically worked on its accessibility|https://twinery.org/forum/discussion/2580/any-interest-in-an-accessibility-guide]], but this required [[work on my part to enable it within the authoring tool|http://www.motoslave.net/sugarcube/2/docs/twine-2.html]].
 
 </tw-passagedata>
+<tw-passagedata pid="20" name="Tell me more about pre-electronic non-linear literature" tags="" position="475,900">Non-linearity and reader choice isn&#39;t a new phenomenon in literature. See, for example, Queaneau&#39;s [Cent Mille Milliards de Poèmes|http://www.bevrowe.info/Queneau/QueneauHome_v2.html] or the venerable [Choose Your Own Adventure books|http://www.cyoa.com/]. </tw-passagedata>
+<tw-passagedata pid="21" name="Tell me more about non-Twine hypertext authoring" tags="" position="603,901">Obviously, it&#39;s possible to create hypertext literature just by handrolling your own HTML/CSS/Javascript (and some have). But other authoring systems have included [[Storyspace|http://www.eastgate.com/storyspace/index.html]], the software that created much of the interest in hypertext fiction in the late 90s, and stories implemented using Hypercard.</tw-passagedata>
 </tw-storydata>
 </div>
 	<script id="script-sugarcube" type="text/javascript">
